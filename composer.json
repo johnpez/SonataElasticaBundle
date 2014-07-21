@@ -7,7 +7,7 @@
   "require": {
     "symfony/framework-bundle": ">=2",
     "sonata-project/admin-bundle": ">=2",
-    "friendsofsymfony/elastica-bundle": "3.x-dev"
+    "friendsofsymfony/elastica-bundle": "3.0.x-dev"
   },
   "autoload": {
     "psr-0": { "Marmelab\\SonataElasticaBundle": "" }
