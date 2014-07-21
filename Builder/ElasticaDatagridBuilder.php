@@ -26,7 +26,7 @@ class ElasticaDatagridBuilder extends BaseDatagridBuilder
      * @param TypeGuesserInterface    $guesser
      * @param ElasticaProxyRepository $repository
      */
-    public function __construct(FormFactory $formFactory, FilterFactoryInterface $filterFactory, TypeGuesserInterface $guesser, ElasticaProxyRepository $repository, $searchForm)
+    public function __construct(FormFactory $formFactory, FilterFactoryInterface $filterFactory, TypeGuesserInterface $guesser, ElasticaProxyRepository $repository, AbstractType $searchForm = NULL)
     {
         parent::__construct($formFactory, $filterFactory, $guesser);
 
